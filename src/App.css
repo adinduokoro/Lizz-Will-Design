@@ -1,3 +1,4 @@
+/* Reset default styles */
 *{
   margin: 0;
   padding: 0;
@@ -5,3 +6,27 @@
   scroll-behavior: smooth;
 }
 
+/* Constants */
+:root{
+  /* Font */
+  --font: "Minister Book", sans-serif;
+
+  /* Color */
+  --primaryColorOrange500: #ed6426;
+
+  --neutralColor700: #9b9491;
+
+  --blackColor300: #605956;
+  --blackColor500: #120703;
+  --blackColor500_50: rgba(18, 7, 3, 0.50);
+  --blackColor500_55: rgba(18, 7, 3, 0.55);
+  --blackColor500_60: rgba(18, 7, 3, 0.60);
+
+  --whiteColor500: #fef6f3;
+  --whiteColor500_20: rgba(254, 246, 243, 0.2);
+  --whiteColor500_05: rgba(254, 246, 243, 0.05);
+}
+
+body{}
+
+.App{}
