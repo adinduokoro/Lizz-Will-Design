@@ -10,3 +10,9 @@
   width: 104.9375rem;
   border: 2px solid green;
 }
+
+.about-container h2 {
+  width: 46.1875rem;
+  margin: 1rem 0 4rem;
+}
+
