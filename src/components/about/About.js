@@ -9,11 +9,8 @@ const About = () => {
     <div className={styles["about"]}>
       <div className={styles["about-container"]}>
         <div className={styles["link-container"]}>
-          <>
           <SectionLink text={"About Us"} />
-          </>
         </div>
-
         <h2>About Our Design Philosophy</h2>
         <div className={styles["about-content"]}>
           <ul className={styles["about-navigation-links"]}>

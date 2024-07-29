@@ -4,7 +4,6 @@ import diagonalArrow from "../../assets/diagonal-arrow.svg";
 
 const SectionLink = ({ text }) => {
   return (
-    <>
       <div className={styles["section-link"]}>
         <div className={styles["page-link"]}>
           <>
@@ -18,7 +17,6 @@ const SectionLink = ({ text }) => {
           alt="diagonal arrow"
         />
       </div>
-    </>
   );
 };
 

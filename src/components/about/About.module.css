@@ -9,17 +9,34 @@
 .about-container {
   width: 104.9375rem;
   border: 2px solid green;
+  display: flex;
+  flex-direction: column;
 }
 
 .link-container {
   display: flex;
   align-items: center;
-  justify-items: flex-end;
-  border: 2px solid pink;
-
+  width: 10rem; /* adjust link distance from the right */
+  height: 3rem;
+  align-self: end;
 }
 
 .about-container h2 {
   width: 46.1875rem;
   margin: 1rem 0 4rem;
+}
+
+.about-content{
+  display: flex;
+}
+
+.about-navigation-links{
+  display: flex;
+  flex-direction: column;
+}
+
+.card-container{
+  border: 2px solid green;
+  min-width: 28.375rem;
+  height: 26.9375rem;
 }
