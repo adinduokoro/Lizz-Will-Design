@@ -11,8 +11,15 @@
   border: 2px solid green;
 }
 
+.link-container {
+  display: flex;
+  align-items: center;
+  justify-items: flex-end;
+  border: 2px solid pink;
+
+}
+
 .about-container h2 {
   width: 46.1875rem;
   margin: 1rem 0 4rem;
 }
-

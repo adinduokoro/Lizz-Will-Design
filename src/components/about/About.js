@@ -1,12 +1,19 @@
 import React from "react";
 import styles from "./About.module.css";
 import { aboutLinks } from "./data";
+import diagonalArrow from "../../assets/diagonal-arrow.svg";
+import { SectionLink } from "../../components";
 
 const About = () => {
   return (
     <div className={styles["about"]}>
       <div className={styles["about-container"]}>
-        <span>About</span>
+        <div className={styles["link-container"]}>
+          <>
+          <SectionLink text={"About Us"} />
+          </>
+        </div>
+
         <h2>About Our Design Philosophy</h2>
         <div className={styles["about-content"]}>
           <ul className={styles["about-navigation-links"]}>

@@ -1,0 +1,37 @@
+.section-link{
+  display: flex;
+  align-items: start;
+  position: relative;
+  gap: 0.5rem;
+}
+
+.page-link{
+  display: inline-block;
+  height: 2.5rem;
+}
+
+
+.text{
+  display: block;
+  color: var(--blackColor500);
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2rem;
+  margin-bottom: 0.25rem;
+}
+
+.underline{
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  height: 0.125rem;
+  background-color: var(--blackColor500);
+}
+
+.diagonal-arrow{
+  width: 0.5625rem;
+  height: 0.5625rem;
+  margin-top: 0.75rem;
+}
+
