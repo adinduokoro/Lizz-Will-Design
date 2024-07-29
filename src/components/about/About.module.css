@@ -1,0 +1,12 @@
+.about {
+  min-height: 67.5rem;
+  border: 2px solid green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-container {
+  width: 104.9375rem;
+  border: 2px solid green;
+}

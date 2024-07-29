@@ -1,9 +1,17 @@
 import React from 'react'
 import styles from "./Home.module.css"
+import { About, Hero } from '../../components'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <Hero />
+      <About />
+      {/* Quality */}
+      {/* Services */}
+      {/* Featured */}
+      {/* Cta */}
+    </div>
   )
 }
 

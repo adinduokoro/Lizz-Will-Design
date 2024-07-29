@@ -1,0 +1,33 @@
+.hero {
+  min-height: 59.25rem;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-container {
+  width: 69.5rem;
+}
+
+.hero-cta {
+  margin-top: 9.75rem;
+}
+
+.hero-cta h1 {
+  width: 45.25rem;
+  margin-bottom: 1rem;
+}
+
+.hero-cta h1 span {
+  color: var(--primaryColorOrange500);
+}
+
+.hero-cta p {
+  width: 51.75rem;
+  margin-bottom: 2rem;
+  color: var(--whiteColor500);
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1.5rem;
+}
