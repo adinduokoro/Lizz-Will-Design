@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./About.module.css";
 import { aboutLinks } from "./data";
-import diagonalArrow from "../../assets/diagonal-arrow.svg";
 import { SectionLink } from "../../components";
 
 const About = () => {
@@ -15,7 +14,12 @@ const About = () => {
         <div className={styles["about-content"]}>
           <ul className={styles["about-navigation-links"]}>
             {aboutLinks.map((link, index) => (
-              <li key={index}>{link}</li>
+              <li key={index}>
+                <h3>
+                {link}
+
+                </h3>
+              </li>
             ))}
           </ul>
           <p>

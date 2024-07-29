@@ -28,11 +28,22 @@
 
 .about-content{
   display: flex;
+  justify-content: center;
+  border: 2px solid green;
+  max-width: 87.25rem;
+  align-self: center;
+  gap: 3.56rem;
+
 }
 
 .about-navigation-links{
   display: flex;
   flex-direction: column;
+  gap: 2rem;
+}
+
+.about-navigation-links li h3{
+  text-decoration-line: underline;
 }
 
 .card-container{
