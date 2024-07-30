@@ -1,14 +1,14 @@
 import React from "react";
 import styles from "./Service.module.css";
 import { cards } from "./data";
-import backgroundImage from "../../assets/homeBackgroundTwo.png"
+import backgroundImage from "../../assets/homeBackgroundTwo.png";
 
 const Services = () => {
   return (
     <div className={styles["service"]}>
       <div className={styles["background-container"]}>
         <div className={styles["background-overlay"]}></div>
-        <img src={backgroundImage} alt="background"/>
+        <img src={backgroundImage} alt="background" />
       </div>
       <div className={styles["service-container"]}>
         <h2>Explore Our Key Services and More</h2>
@@ -27,7 +27,9 @@ const Services = () => {
             {cards.map((card, index) => (
               <div className={styles["card"]} key={index}>
                 <div className={styles["top"]}>{card.img}top</div>
-                <div className={styles["bottom"]}>{card.title}</div>
+                <div className={styles["bottom"]}>
+                  <p>{card.title}</p>
+                </div>
               </div>
             ))}
           </div>
