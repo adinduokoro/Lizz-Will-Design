@@ -7,7 +7,7 @@ const Quality = () => {
     <div className={styles["quality"]}>
       <div className={styles["quality-container"]}>
         {cards.map((card, index) => (
-          <div className={styles["card"]}>
+          <div className={styles["card"]} key={index}>
             <div className={styles["image-container"]}>
               <img src="" alt="" />
             </div>

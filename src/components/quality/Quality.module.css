@@ -1,4 +1,4 @@
-.quality{
+.quality {
   border: 2px solid purple;
   min-height: 50rem;
   display: flex;
@@ -6,27 +6,48 @@
   justify-content: center;
 }
 
-.quality-container{
+.quality-container {
   width: 104.9375rem;
-  border: 2px solid purple;
   display: flex;
   justify-content: center;
   gap: 1.5rem;
 }
 
-.card{
+.card {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   max-width: 34rem;
-height: 37.0625rem;
-border-radius: 0.5rem;
-border: 2px solid #120703;
+  height: 37.0625rem;
+  border-radius: 0.5rem;
+  border: 2px solid var(--blackColor500);
+  background: var(--whiteColor500);
+  width: 100%;
+}
 
-background: #FEF6F3;
+.image-container{
+  width: 11.75rem;
+height: 11.75rem;
+margin-bottom: 2rem;
+border-radius: 100%;
+background-color: var(--primaryColorOrange500);
+border: 2px solid var(--blackColor500);
 
 }
 
-.title h3{
+.title h3 {
   font-size: 2.53rem;
-font-weight: 400;
-line-height: 4rem; 
+  font-weight: 400;
+  line-height: 4rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.description p{
+  width: 19.25rem;
+  display: inline-block;
+
 }
