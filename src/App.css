@@ -85,7 +85,7 @@ h2 {
 h3 {
   color: var(--blackColor500);
   font-size: 1.72813rem;
-  font-weight: 600;   /* might change depending on screen size. Original was 500 font weight */
+  font-weight: 600; /* might change depending on screen size. Original was 500 font weight */
   line-height: 2.5rem;
 }
 
