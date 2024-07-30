@@ -2,6 +2,8 @@ import React from "react";
 import styles from "./About.module.css";
 import { aboutLinks } from "./data";
 import { SectionLink } from "../../components";
+import leftArrow from "../../assets/left-arrow.svg";
+import rightArrow from "../../assets/right-arrow.svg";
 
 const About = () => {
   return (
@@ -15,10 +17,7 @@ const About = () => {
           <ul className={styles["about-navigation-links"]}>
             {aboutLinks.map((link, index) => (
               <li key={index}>
-                <h3>
-                {link}
-
-                </h3>
+                <h3>{link}</h3>
               </li>
             ))}
           </ul>
@@ -39,8 +38,19 @@ const About = () => {
               {/* image */}
             </div>
             <div className={styles["card-container-buttons"]}>
-              {/* left */}
-              {/* right */}
+              <div className={styles["view-box"]}>slides</div>
+              <div className={styles["view-box-controls"]}>
+                <img
+                  className={styles["left-arrow"]}
+                  src={leftArrow}
+                  alt="left arrow"
+                />
+                <img
+                  className={styles["right-arrow"]}
+                  src={rightArrow}
+                  alt="right arrow"
+                />
+              </div>
             </div>
           </div>
         </div>

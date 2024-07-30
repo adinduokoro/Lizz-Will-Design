@@ -1,6 +1,5 @@
 .about {
   min-height: 67.5rem;
-  border: 2px solid green;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -8,7 +7,6 @@
 
 .about-container {
   width: 104.9375rem;
-  border: 2px solid green;
   display: flex;
   flex-direction: column;
 }
@@ -26,28 +24,46 @@
   margin: 1rem 0 4rem;
 }
 
-.about-content{
+.about-content {
   display: flex;
   justify-content: center;
-  border: 2px solid green;
   max-width: 87.25rem;
   align-self: center;
   gap: 3.56rem;
-
 }
 
-.about-navigation-links{
+.about-navigation-links {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
-.about-navigation-links li h3{
+.about-navigation-links li h3 {
   text-decoration-line: underline;
 }
 
-.card-container{
-  border: 2px solid green;
+.card-container {
   min-width: 28.375rem;
   height: 26.9375rem;
+}
+
+.view-box {
+  width: 28.375rem;
+  height: 23.0625rem;
+  border: 2px solid green;
+}
+
+.view-box-controls {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  border: 2px solid green;
+  display: flex;
+  gap: 1.98rem;
+}
+
+.left-arrow,
+.right-arrow {
+  width: 1.875rem;
+  height: 2.25994rem;
+  cursor: pointer;
 }
