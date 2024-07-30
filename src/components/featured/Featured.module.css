@@ -1,0 +1,39 @@
+.featured {
+  min-height: 67.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: 2px solid green;
+}
+
+.featured-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.featured-container h2 {
+  margin-bottom: 3.87rem;
+}
+
+.slideshow-container {
+  max-width: 80.25rem;
+  border: 2px solid pink;
+  height: 28.5rem;
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
+.featured-container p {
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.button {
+    width: 34rem;
+    height: 8.875rem;
+    font-size: 2.98625rem;
+    font-weight: 500;
+    line-height: 4rem;
+}

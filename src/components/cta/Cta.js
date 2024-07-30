@@ -1,10 +1,14 @@
-import React from 'react'
-import styles from "./Cta.module.css"
+import React from "react";
+import styles from "./Cta.module.css";
+import background from "../../assets/cta-background.png";
 
 const Cta = () => {
   return (
-    <div>Cta</div>
-  )
-}
+    <div className={styles["cta"]}>
+      <img src={background} alt="" />
 
-export default Cta
+    </div>
+  );
+};
+
+export default Cta;

@@ -1,0 +1,14 @@
+.footer{
+    min-height: 32.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid green;
+    background-color: var(--blackColor500);
+    color: var(--whiteColor500);
+}
+
+.footer-container{
+    width: 70rem;
+    border: 2px solid green;
+}
