@@ -50,3 +50,36 @@ border: 2px solid var(--blackColor500);
   display: inline-block;
 
 }
+
+@media screen and (max-width: 1280px) {
+  .quality {
+    min-height: 33.333125rem;
+  }
+  
+  .quality-container {
+    width: 70.0625rem;
+  }
+  
+  .card {
+    max-width: 22.3125rem;
+height: 24.32225rem;
+border-radius: 0.32813rem;
+  }
+  
+  .image-container{
+    width: 7.6875rem;
+    height: 7.6875rem;
+  margin-bottom: 1rem;
+  
+  }
+  
+  .title h3 {
+    font-size: 1.72813em;
+    line-height: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .description p{
+    width: 12.625rem;  
+  }
+}
