@@ -9,7 +9,7 @@
 
 .video-container {
   width: 100%;
-  height: 111.02vh;
+  height: 74.9375rem;
   clip-path: polygon(100% 85.54%, 0% 100%, 0% 0%, 100% 0%);
   position: relative;
 }
@@ -27,4 +27,10 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+@media screen and (max-width: 1280px) {
+  .video-container {
+    height: 50rem;
+  }
 }

@@ -142,3 +142,26 @@ p {
   line-height: 4rem;
   border: 3px solid var(--whiteColor500);
 }
+
+@media screen and (max-width: 1280px) {
+  h1, h2 {
+    font-size: 3.58375rem;
+    line-height: 4.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+
+  .secondary-button-one,
+  .primary-button-one {
+    width: 10.4375rem;
+    height: 2.625rem;
+  }
+
+  button {
+    font-size: 0.83313rem;
+    font-weight: 400;
+  }
+}
