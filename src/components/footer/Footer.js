@@ -32,7 +32,7 @@ const Footer = () => {
               <span>Let’s get started! Complete the following form:</span>
               <input
                 className={styles["name"]}
-                type="name"
+                type="name" 
                 placeholder="Name"
               />
               <input
