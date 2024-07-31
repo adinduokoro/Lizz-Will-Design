@@ -29,10 +29,22 @@
   margin-bottom: 2rem;
 }
 
-.button {
-    width: 34rem;
-    height: 8.875rem;
-    font-size: 2.98625rem;
-    font-weight: 500;
-    line-height: 4rem;
+@media screen and (max-width: 1280px) {
+  .featured {
+    min-height: 50rem;
+  }
+
+  .featured-container h2 {
+    margin-bottom: 4rem;
+  }
+
+  .slideshow-container {
+    max-width: 80.25rem;
+    height: 18.875rem;
+  }
+
+  .featured-container p {
+    font-weight: 300;
+    margin-bottom: 2rem;
+  }
 }
