@@ -112,3 +112,25 @@ p {
   background-color: var(--primaryColorOrange500);
   color: var(--whiteColor500);
 }
+
+.primary-button-two{
+  background-color: var(--primaryColorOrange500);
+  color: var(--whiteColor500);
+  width: 34rem;
+    height: 8.875rem;
+    font-size: 2.98625rem;
+    font-weight: 500;
+    line-height: 4rem;
+}
+
+.secondary-button-two{
+  background: none;
+
+  color: var(--whiteColor500);
+  width: 34rem;
+    height: 8.875rem;
+    font-size: 2.98625rem;
+    font-weight: 500;
+    line-height: 4rem;
+    border: 3px solid var(--whiteColor500);
+}

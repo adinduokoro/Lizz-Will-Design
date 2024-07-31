@@ -5,6 +5,7 @@ import SectionLink from "../sectionLink/SectionLink";
 const Cta = () => {
   return (
     <div className={styles["cta"]}>
+      <div className={styles["parallax-overlay"]}></div>
       <div className={styles["parallax"]}></div>
       <div className={styles["top"]}>
         <div className={styles["top-container"]}>
@@ -18,7 +19,7 @@ const Cta = () => {
       <div className={styles["bottom"]}>
         <h2>Thinking about a new project?</h2>
         <p>Feel free to say Hello...</p>
-        <button>Let's Talk</button>
+        <button className="secondary-button-two">Let's Talk</button>
       </div>
     </div>
   );

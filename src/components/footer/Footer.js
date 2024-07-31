@@ -6,8 +6,14 @@ const Footer = () => {
     <div className={styles["footer"]}>
       <img src="" alt="" />
       <div className={styles["footer-container"]}>
-        <div className={styles["top"]}>top</div>
-        <div className={styles["bottom"]}>bottom</div>
+        <div className={styles["top"]}>
+          <div className={styles["left"]}>{/* company details */}</div>
+          <div className={styles["right"]}>{/* form */}</div>
+        </div>
+        <div className={styles["bottom"]}>
+          {/* copyright */}
+          {/* social */}
+        </div>
       </div>
     </div>
   );
