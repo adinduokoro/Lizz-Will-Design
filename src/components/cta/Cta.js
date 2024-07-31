@@ -19,7 +19,7 @@ const Cta = () => {
       <div className={styles["bottom"]}>
         <h2>Thinking about a new project?</h2>
         <p>Feel free to say Hello...</p>
-        <button className="secondary-button-two">Let's Talk</button>
+        <button className="secondary-button-one">Let's Talk</button>
       </div>
     </div>
   );

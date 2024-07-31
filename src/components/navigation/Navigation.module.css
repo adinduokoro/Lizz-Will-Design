@@ -35,3 +35,19 @@
     width: 2.875rem;
     height: 1.5rem;
 }
+
+@media screen and (max-width: 1280px) {
+  .navigation {
+    height: 8.25rem;
+    background: linear-gradient(
+      90deg,
+      var(--whiteColor500_20) 0%,
+      var(--whiteColor500_05) 100%
+    );
+    backdrop-filter: blur(18px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2.5rem;
+  }
+}
