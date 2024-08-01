@@ -165,3 +165,17 @@ p {
     font-weight: 400;
   }
 }
+
+@media screen and (max-width: 768px) {
+  h1{font-size: 2.98625rem;
+    line-height: 4rem;
+  }
+
+  .secondary-button-one,
+  .primary-button-one {
+    width: 9.5rem;
+    height: 2.375rem;
+  }
+}
+
+

@@ -57,3 +57,28 @@
 
  
 }
+
+
+@media screen and (max-width: 768px) {
+  .hero {
+    min-height: 55.75rem;
+  }
+
+  .hero-container{
+    width: 35.125rem;
+  }
+
+  .hero-cta {
+    margin-top: 12rem;
+  }
+
+  .hero-cta h1 {
+    width: 26rem;
+  }
+
+  .hero-cta p {
+    width: 27rem;
+  }
+
+ 
+}
