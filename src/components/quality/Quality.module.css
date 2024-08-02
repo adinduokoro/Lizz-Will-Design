@@ -123,3 +123,7 @@ border-radius: 0.32813rem;
     width: 8.75rem;
   }
 }
+
+@media screen and (max-width: 668px) {
+  
+}

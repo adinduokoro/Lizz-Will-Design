@@ -7,7 +7,10 @@ const Home = () => {
     <div>
       <Hero />
       <About />
+      <div className={styles["quality"]}>
       <Quality />
+
+      </div>
       <Services />
       <Featured />
       <Cta />

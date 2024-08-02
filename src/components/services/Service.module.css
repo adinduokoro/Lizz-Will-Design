@@ -193,3 +193,9 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 668px) {
+  .background-container {
+    min-height: 69.125rem;
+  }
+}

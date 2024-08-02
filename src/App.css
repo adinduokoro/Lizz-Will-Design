@@ -178,12 +178,11 @@ p {
     line-height: 3rem;
   }
 
-  h3{
-font-size: 1rem;
-font-weight: 600;
-line-height: 1.5rem; 
+  h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
   }
-
 
   .secondary-button-one,
   .primary-button-one {
@@ -193,7 +192,7 @@ line-height: 1.5rem;
 }
 
 @media screen and (max-width: 668px) {
-  h1{
+  h1 {
     font-size: 2.07375rem;
     line-height: 3rem;
   }
@@ -203,9 +202,7 @@ line-height: 1.5rem;
     line-height: 2.5rem;
   }
 
-  p{
+  p {
     line-height: 1.5rem;
   }
-
-
 }

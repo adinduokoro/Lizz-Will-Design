@@ -35,3 +35,10 @@
   margin-top: .65rem;
 }
 
+@media screen and (max-width: 668px) {
+  .section-link{
+    display: none;
+  }
+  
+}
+
