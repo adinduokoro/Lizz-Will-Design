@@ -29,6 +29,8 @@
 .featured-container p {
   font-weight: 300;
   margin-bottom: 2rem;
+  text-align: center;
+
 }
 
 @media screen and (max-width: 1280px) {
@@ -43,6 +45,27 @@
   .slideshow-container {
     max-width: 80.25rem;
     height: 18.875rem;
+  }
+
+  .featured-container p {
+    font-weight: 300;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .featured {
+    min-height: 42.5rem;
+  }
+
+  .featured-container h2 {
+    margin-bottom: 1.69rem;
+  }
+
+  .slideshow-container {
+    width: 34.375rem;
+    height: 14.0625rem;
+    margin-bottom: 4rem;
   }
 
   .featured-container p {
