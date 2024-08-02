@@ -88,4 +88,14 @@
   }
 }
 
+@media screen and (max-width: 568px) {
+  .hero {
+    min-height: 37.576rem;
+  }
+
+  .hero-cta {
+    margin-top: 7.62rem;
+  }
+}
+
 

@@ -37,6 +37,7 @@ body {
 }
 
 .App {
+  min-width: 425px;
 }
 
 ul {
