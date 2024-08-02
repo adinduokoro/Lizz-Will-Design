@@ -154,3 +154,9 @@
     margin-bottom: 2.4rem;
   }
 }
+
+@media screen and (max-width: 668px) {
+  .link-container {
+    display: none;
+  }
+}

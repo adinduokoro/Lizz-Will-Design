@@ -35,3 +35,9 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .video-container {
+    min-height: 65.5625rem;
+  }
+}
+

@@ -49,3 +49,19 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .navigation {
+    height: 4.125rem;
+  }
+
+.logo-container{
+  width: 4.0625rem;
+height: 3.125rem;
+}
+
+  .toggle-menu{
+    width: 1.4375rem;
+height: 0.75rem;
+}
+}
+

@@ -199,6 +199,10 @@
 }
 
 @media screen and (max-width: 668px) {
+.link-container{
+  display: none;
+}
+
   .background-container {
     min-height: 70.125rem;
   }
