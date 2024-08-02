@@ -23,6 +23,13 @@ const Services = () => {
             </p>
             <button className="primary-button-one">SEE SERVICES</button>
           </div>
+          <div className={styles["mobile-tags"]}>
+            {cards.map((card, index) => (
+              <div className={styles["tag"]}>
+                <p>{card.title}</p>
+              </div>
+            ))}
+          </div>
           <div className={styles["cards"]}>
             {cards.map((card, index) => (
               <div className={styles["card"]} key={index}>
