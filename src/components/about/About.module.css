@@ -4,7 +4,6 @@
   align-items: center;
   justify-content: center;
   padding: 0 3%;
-
 }
 
 .about-container {
@@ -31,6 +30,12 @@
   justify-content: center;
   max-width: 87.25rem;
   align-self: center;
+  gap: 3.56rem;
+  margin-left: 4rem;
+}
+
+.content {
+  display: flex;
   gap: 3.56rem;
 }
 
@@ -73,11 +78,11 @@
   .about {
     min-height: 50rem;
   }
-  
+
   .about-container {
     width: 70.0625rem;
   }
-  
+
   .link-container {
     display: flex;
     align-items: center;
@@ -85,32 +90,65 @@
     height: 3rem;
     align-self: end;
   }
-  
+
   .about-container h2 {
     width: 32.0625rem;
     margin: 0.5rem 0 2rem;
   }
-  
+
   .about-content {
     max-width: 65.625rem;
     gap: 3.25rem;
+    margin-left: 3rem;
   }
 
-  
+  .content {
+    gap: 3.25rem;
+  }
+
   .card-container {
     min-width: 19.375rem;
     height: 19.6875rem;
   }
-  
+
   .view-box {
     width: 19.375rem;
     height: 15.8125rem;
     border: 2px solid green;
   }
-  
+
   .view-box-controls {
     margin-left: 1rem;
   }
-  
- 
+}
+
+@media screen and (max-width: 960px) {
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 3.25rem;
+  }
+
+  .content {
+    gap: 3.25rem;
+  }
+
+  .card-container {
+    min-width: 19.375rem;
+    height: 19.6875rem;
+    margin-left: 12.7569rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-content {
+    margin-left: 2rem;
+
+  }
+
+
+
+  .card-container {
+    margin-left: 8.75125rem;
+  }
 }

@@ -14,6 +14,8 @@ const About = () => {
         </div>
         <h2>About Our Design Philosophy</h2>
         <div className={styles["about-content"]}>
+          <div className={styles["content"]}>
+
           <ul className={styles["about-navigation-links"]}>
             {aboutLinks.map((link, index) => (
               <li key={index}>
@@ -31,6 +33,9 @@ const About = () => {
             adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante
             dapibus diam. Sed nisi. Nulla quis sem.
           </p>
+
+
+          </div>
           <div className={styles["card-container"]}>
             <div className={styles["image-container"]}>
               {/* image */}
