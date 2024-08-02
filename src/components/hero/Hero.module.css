@@ -33,13 +33,12 @@
   gap: 1.5rem;
 }
 
-
 @media screen and (max-width: 1280px) {
   .hero {
     min-height: 41.75rem;
   }
 
-  .hero-container{
+  .hero-container {
     width: 58.125rem;
   }
 
@@ -54,13 +53,10 @@
   .hero-cta p {
     width: 34.25rem;
   }
-
- 
 }
 
-
 @media screen and (max-width: 960px) {
-  .hero-container{
+  .hero-container {
     width: 35.125rem;
   }
 
@@ -71,6 +67,20 @@
   .hero-cta p {
     width: 27rem;
   }
+}
 
- 
+@media screen and (max-width: 668px) {
+  .hero {
+    min-height: 37.5625rem;
+  }
+
+  .hero-cta h1 {
+    width: 18.6875rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .hero-cta p {
+    width: 18.6875rem;
+    margin-bottom: 1rem;
+  }
 }
