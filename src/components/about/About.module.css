@@ -123,6 +123,9 @@
 }
 
 @media screen and (max-width: 960px) {
+  .about {
+    min-height: 64rem;
+  }
   .about-content {
     display: flex;
     flex-direction: column;
@@ -141,9 +144,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .about {
-    min-height: 64rem;
-  }
+
 
   /* .link-container {
     display: flex;

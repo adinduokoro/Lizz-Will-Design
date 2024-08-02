@@ -5,7 +5,6 @@
   justify-content: center;
   position: relative;
   padding: 0 3%;
-
 }
 
 .background-container {
@@ -55,6 +54,8 @@
   padding: 2rem;
   backdrop-filter: blur(4.903987884521484px);
   margin-right: 2rem;
+  border-radius: 0.5rem;
+
 }
 
 .description p {
@@ -117,36 +118,35 @@
   .service {
     min-height: 50rem;
   }
-  
+
   .background-container {
     min-height: 74.5rem;
   }
-  
-  
+
   .service-container {
     width: 70.0625rem;
   }
-  
+
   .service-container h2 {
     width: 30.9375rem;
   }
-  
+
   .description p {
     max-width: 18.25em;
     margin-bottom: 1.25rem;
   }
-  
+
   .card {
     max-height: 26.6875rem;
     border: 2px solid var(--whiteColor500);
   }
-  
+
   .card .bottom {
     width: 100%;
     height: 4.25rem;
     border-top: 2px solid var(--whiteColor500);
   }
-  
+
   .card p {
     width: 5.1875rem;
   }
@@ -155,5 +155,45 @@
 @media screen and (max-width: 1188px) {
   .card:nth-child(4) {
     display: none;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .service {
+    min-height: 64rem;
+  }
+
+  .background-container {
+    min-height: 84.125rem;
+  }
+
+
+
+  .cards {
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .card {
+    height: 13.375rem;
+    width: 100%;
+  }
+
+  .card .bottom {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card p {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .service-container h2 {
+    width: 17.9375rem;
   }
 }
