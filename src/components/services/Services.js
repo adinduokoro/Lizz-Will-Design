@@ -25,7 +25,7 @@ const Services = () => {
           </div>
           <div className={styles["mobile-tags"]}>
             {cards.map((card, index) => (
-              <div className={styles["tag"]}>
+              <div className={styles["tag"]} key={index}>
                 <p>{card.title}</p>
               </div>
             ))}
