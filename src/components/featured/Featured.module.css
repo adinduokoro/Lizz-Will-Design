@@ -63,7 +63,7 @@
   }
 
   .slideshow-container {
-    width: 34.375rem;
+    max-width: 34.375rem;
     height: 14.0625rem;
     margin-bottom: 4rem;
   }
