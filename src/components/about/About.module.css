@@ -129,6 +129,7 @@
     display: flex;
     flex-direction: column;
     gap: 3.25rem;
+    margin-left: 2rem;
   }
 
   .content {
@@ -138,32 +139,15 @@
   .card-container {
     min-width: 19.375rem;
     height: 19.6875rem;
-    margin-left: 12.7569rem;
+    margin-left: 8.75125rem;
   }
-}
-
-@media screen and (max-width: 768px) {
-
-
-  /* .link-container {
-    display: flex;
-    align-items: center;
-    width: 10rem; adjust link distance from the right
-    height: 3rem;
-    align-self: end;
-  } */
 
   .about-container h2 {
     width: 18.5625rem;
   }
+  
+}
 
-  .about-content {
-    margin-left: 2rem;
-  }
+@media screen and (max-width: 960px) {
 
-  .card-container {
-    min-width: 19.375rem;
-    margin-left: 8.75125rem;
-    height: 19.6875rem;
-  }
 }
