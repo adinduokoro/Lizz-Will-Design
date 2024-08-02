@@ -57,7 +57,7 @@
 .view-box {
   width: 28.375rem;
   height: 23.0625rem;
-  border: 2px solid green;
+  border: 2px solid black;
 }
 
 .view-box-controls {
@@ -114,7 +114,6 @@
   .view-box {
     width: 19.375rem;
     height: 15.8125rem;
-    border: 2px solid green;
   }
 
   .view-box-controls {

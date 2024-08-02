@@ -55,7 +55,6 @@
   backdrop-filter: blur(4.903987884521484px);
   margin-right: 2rem;
   border-radius: 0.5rem;
-
 }
 
 .description p {
@@ -165,10 +164,8 @@
 
   .background-container {
     min-height: 84.125rem;
+    clip-path: polygon(100% 18.2%, 0% 7.5%, 0% 100%, 100% 100%);
   }
-
-
-
 
   .cards {
     flex-direction: column;
