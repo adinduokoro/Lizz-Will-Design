@@ -15,7 +15,7 @@ const Featured = () => {
           Our meticulous craftsmanship and keen attention to detail shine
           through in every project we undertake.
         </p>
-        <button className={`primary-button-one`}>
+        <button className={`primary-button-two`}>
           View Our Portfolio
         </button>
       </div>
