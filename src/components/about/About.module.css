@@ -34,6 +34,10 @@
   margin-left: 4rem;
 }
 
+.about-content button{
+  display: none;
+}
+
 .content {
   display: flex;
   gap: 3.56rem;
@@ -123,7 +127,7 @@
 
 @media screen and (max-width: 960px) {
   .about {
-    min-height: 58rem;
+    min-height: 53rem;
   }
   .about-content {
     display: flex;
@@ -151,6 +155,7 @@
   .link-container {
     display: none;
   }
+
 }
 
 @media screen and (max-width: 568px) {
@@ -172,6 +177,12 @@
 
   .about-content {
     margin-left: 0;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .about-content button {
+    display: block;
   }
 
   .about-content p {

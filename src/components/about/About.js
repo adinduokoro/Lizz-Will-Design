@@ -15,26 +15,23 @@ const About = () => {
         <h2>About Our Design Philosophy</h2>
         <div className={styles["about-content"]}>
           <div className={styles["content"]}>
-
-          <ul className={styles["about-navigation-links"]}>
-            {aboutLinks.map((link, index) => (
-              <li key={index}>
-                <h3>{link}</h3>
-              </li>
-            ))}
-          </ul>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
-            odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla
-            quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent
-            mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vesti
-            bcursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh
-            elementum imperdiet. Duis sagm dolor sit amet, consectetur
-            adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante
-            dapibus diam. Sed nisi. Nulla quis sem.
-          </p>
-
-
+            <ul className={styles["about-navigation-links"]}>
+              {aboutLinks.map((link, index) => (
+                <li key={index}>
+                  <h3>{link}</h3>
+                </li>
+              ))}
+            </ul>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
+              Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+              Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris
+              massa. Vesti bcursus ante dapibus diam. Sed nisi. Nulla quis sem
+              at nibh elementum imperdiet. Duis sagm dolor sit amet, consectetur
+              adipiscing elit. Integer nec odio. Praesent libero. Sed cursus
+              ante dapibus diam. Sed nisi. Nulla quis sem.
+            </p>
           </div>
           <div className={styles["card-container"]}>
             <div className={styles["image-container"]}>
@@ -58,6 +55,7 @@ const About = () => {
               </div>
             </div>
           </div>
+          <button className="primary-button-two">View our Portfolio</button>
         </div>
       </div>
     </div>

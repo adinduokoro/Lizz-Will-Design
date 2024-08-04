@@ -9,7 +9,7 @@
 
 .video-container {
   width: 100%;
-  height: 74.9375rem;
+  height: 67.5rem;
   clip-path: polygon(100% 85.54%, 0% 100%, 0% 0%, 100% 0%);
   position: relative;
 }
@@ -35,15 +35,12 @@
   }
 }
 
+
 @media screen and (max-width: 768px) {
   .video-container {
-    min-height: 65.5625rem;
+    min-height: 41.6875rem;
   }
 }
 
-@media screen and (max-width: 568px) {
-  .video-container {
-    min-height: 43.75rem;
-  }
-}
+
 

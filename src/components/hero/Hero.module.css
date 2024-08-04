@@ -71,17 +71,19 @@
 
 @media screen and (max-width: 768px) {
   .hero {
-    min-height: 57.31rem;
+    min-height: 48rem;
   }
+  
 
   .hero-cta {
-    margin-top: 15rem;
+    margin-top: 12rem;
   }
 }
 
 @media screen and (max-width: 668px) {
+  
   .hero-cta {
-    margin-top: 17rem;
+    margin-top: 12rem;
   }
   .hero-cta h1 {
     width: 19rem;
@@ -94,7 +96,7 @@
 
 @media screen and (max-width: 568px) {
   .hero {
-    min-height: 37.576rem;
+    min-height: 42.576rem;
   }
 
   .hero-cta {
