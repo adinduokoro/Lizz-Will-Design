@@ -23,19 +23,12 @@ const Services = () => {
             </p>
             <button className="primary-button-one">SEE SERVICES</button>
           </div>
-          {/* <div className={styles["mobile-tags"]}>
-            {cards.map((card, index) => (
-              <div className={styles["tag"]} key={index}>
-                <p>{card.title}</p>
-              </div>
-            ))}
-          </div> */}
           <div className={styles["cards"]}>
             {cards.map((card, index) => (
               <div className={styles["card"]} key={index}>
                 <div className={styles["top"]}>{card.img}top</div>
                 <div className={styles["bottom"]}>
-                  <p>{card.title}</p>
+                  <p className={styles["capitalize"]}>{card.title}</p>
                 </div>
               </div>
             ))}
