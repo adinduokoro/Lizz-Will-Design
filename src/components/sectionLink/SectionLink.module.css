@@ -1,17 +1,16 @@
-.section-link{
+.section-link {
   display: flex;
   align-items: start;
   position: relative;
   gap: 1.06rem;
 }
 
-.page-link{
+.page-link {
   display: inline-block;
   height: 3rem;
 }
 
-
-.text{
+.text {
   display: block;
   color: var(--blackColor500);
   font-family: "Roboto", sans-serif;
@@ -21,7 +20,7 @@
   margin-bottom: 0.5rem;
 }
 
-.underline{
+.underline {
   display: inline-block;
   vertical-align: top;
   width: 100%;
@@ -29,16 +28,14 @@
   background-color: var(--blackColor500);
 }
 
-.diagonal-arrow{
+.diagonal-arrow {
   width: 0.9375rem;
   height: 0.9375rem;
-  margin-top: .65rem;
+  margin-top: 0.65rem;
 }
 
 @media screen and (max-width: 668px) {
-  .section-link{
+  .section-link {
     display: none;
   }
-  
 }
-

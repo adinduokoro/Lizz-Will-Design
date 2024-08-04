@@ -4,7 +4,6 @@
   align-items: center;
   justify-content: center;
   padding: 0 3%;
-
 }
 
 .quality-container {
@@ -28,14 +27,13 @@
   width: 100%;
 }
 
-.image-container{
+.image-container {
   width: 11.75rem;
-height: 11.75rem;
-margin-bottom: 2rem;
-border-radius: 100%;
-background-color: var(--primaryColorOrange500);
-border: 2px solid var(--blackColor500);
-
+  height: 11.75rem;
+  margin-bottom: 2rem;
+  border-radius: 100%;
+  background-color: var(--primaryColorOrange500);
+  border: 2px solid var(--blackColor500);
 }
 
 .title h3 {
@@ -47,42 +45,40 @@ border: 2px solid var(--blackColor500);
   white-space: nowrap;
 }
 
-.description p{
+.description p {
   width: 19.25rem;
   display: inline-block;
-
 }
 
 @media screen and (max-width: 1280px) {
   .quality {
     min-height: 33.333125rem;
   }
-  
+
   .quality-container {
     width: 70.0625rem;
   }
-  
+
   .card {
     max-width: 22.3125rem;
-height: 24.32225rem;
-border-radius: 0.32813rem;
+    height: 24.32225rem;
+    border-radius: 0.32813rem;
   }
-  
-  .image-container{
+
+  .image-container {
     width: 7.6875rem;
     height: 7.6875rem;
-  margin-bottom: 1rem;
-  
+    margin-bottom: 1rem;
   }
-  
+
   .title h3 {
     font-size: 1.72813em;
     line-height: 2.5rem;
     margin-bottom: 0.5rem;
   }
-  
-  .description p{
-    width: 12.625rem;  
+
+  .description p {
+    width: 12.625rem;
   }
 }
 
@@ -90,34 +86,33 @@ border-radius: 0.32813rem;
   .quality {
     min-height: 22.94938rem;
   }
-  
+
   .quality-container {
     width: 70.0625rem;
   }
-  
+
   .card {
     border: 1px solid var(--blackColor500);
 
-height: 16.37706rem;
-border-radius: 0.32813rem;
+    height: 16.37706rem;
+    border-radius: 0.32813rem;
   }
-  
-  .image-container{
+
+  .image-container {
     width: 4.5rem;
     height: 4.5rem;
-  margin-bottom: 0.5rem;
-  border: 1px solid var(--blackColor500);
-  
+    margin-bottom: 0.5rem;
+    border: 1px solid var(--blackColor500);
   }
-  
+
   .title h3 {
     font-size: 1rem;
     line-height: 1.5rem;
     font-weight: 500;
     margin-bottom: 0.25rem;
   }
-  
-  .description p{
+
+  .description p {
     font-size: 0.83313rem;
     line-height: 1rem;
     width: 8.75rem;
@@ -125,5 +120,4 @@ border-radius: 0.32813rem;
 }
 
 @media screen and (max-width: 668px) {
-  
 }

@@ -194,7 +194,7 @@
 }
 
 @media screen and (max-width: 668px) {
-  .service{
+  .service {
     min-height: 45.5rem;
   }
 
@@ -234,13 +234,13 @@
     margin-right: 0;
     border-radius: 0;
   }
-  
+
   .description p {
     color: var(--blackColor500);
     max-width: none;
     margin-bottom: 2rem;
   }
-  
+
   .description button {
     display: none;
   }
@@ -249,7 +249,6 @@
     align-items: center;
     gap: 0.5rem;
     justify-content: none;
-
   }
 
   .card {
@@ -275,5 +274,4 @@
     width: none;
     text-transform: uppercase;
   }
-
 }

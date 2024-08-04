@@ -34,7 +34,7 @@
   margin-left: 4rem;
 }
 
-.about-content button{
+.about-content button {
   display: none;
 }
 
@@ -155,7 +155,6 @@
   .link-container {
     display: none;
   }
-
 }
 
 @media screen and (max-width: 568px) {

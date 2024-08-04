@@ -6,7 +6,9 @@ const Hero = () => {
     <div className={styles["hero"]}>
       <div className={styles["hero-container"]}>
         <div className={styles["hero-cta"]}>
-          <h1>Designing homes to perfectly match your <span>Dreams.</span></h1>
+          <h1>
+            Designing homes to perfectly match your <span>Dreams.</span>
+          </h1>
           <p>
             General Contracting, Handyman Services, Painting & Drywall, Kitchen
             & Bath Renovations, and So Much More
