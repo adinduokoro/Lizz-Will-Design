@@ -74,6 +74,12 @@
   }
 }
 
+@media screen and (max-width: 668px) {
+  .featured {
+    min-height: 35rem;
+  }
+}
+
 @media screen and (max-width: 568px) {
   .featured{
     display: none;
