@@ -80,6 +80,9 @@
 }
 
 @media screen and (max-width: 668px) {
+  .hero-container{
+    padding: 0 3%;
+  }
   .hero-cta {
     margin-top: 12rem;
   }

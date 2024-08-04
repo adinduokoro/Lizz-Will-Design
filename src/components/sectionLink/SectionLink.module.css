@@ -34,6 +34,23 @@
   margin-top: 0.65rem;
 }
 
+@media screen and (max-width: 1280px) {
+  .section-link {
+    gap: 0.5rem;
+  }
+
+  .text{
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .diagonal-arrow {
+    width: 0.5625rem;
+    height: 0.5625rem;
+    margin-top: 0.7rem;
+  }
+}
+
 @media screen and (max-width: 668px) {
   .section-link {
     display: none;
