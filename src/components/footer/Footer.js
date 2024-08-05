@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <footer className={styles["footer"]}>
       <img src="" alt="" />
-      <div className={styles["footer-container"]}>
+      {/* <div className={styles["footer-container"]}>
         <div className={styles["top"]}>
           <div className={styles["left"]}>
             <img src={logo} alt="" />
@@ -60,7 +60,7 @@ const Footer = () => {
             ))}
           </div>
         </div>
-      </div>
+      </div> */}
     </footer>
   );
 };
