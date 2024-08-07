@@ -14,8 +14,8 @@ const Hero = () => {
             & Bath Renovations, and So Much More
           </p>
           <div className={styles["cta-buttons"]}>
-            <button className="secondary-button-one">GET A QUOTE</button>
-            <button className="primary-button-one">SEE SERVICES</button>
+            <button className="primary-button-one">GET A QUOTE</button>
+            <button className="secondary-button-one">SEE SERVICES</button>
           </div>
         </div>
       </div>
