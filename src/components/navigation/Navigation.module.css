@@ -20,20 +20,44 @@
 .logo-container img {
   width: 100%;
   height: 100%;
+  cursor: pointer;
 }
 
 .navigation-links {
   width: 34.125rem;
   display: flex;
   justify-content: space-between;
-  color: var(--whiteColor500);
   font-size: 1rem;
   font-weight: 500;
+  color: var(--whiteColor500);
+}
+
+.nav-item {
+  position: relative;
+  cursor: pointer;
+}
+
+.nav-item::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 4px;
+  bottom: -2px;
+  left: 0;
+  bottom: -0.5rem;
+  background-color: var(--primaryColorOrange500);
+  visibility: visible;
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-item:hover::after {
+  width: 100%;
 }
 
 .toggle-menu {
-  width: 2.875rem;
-  height: 1.5rem;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1280px) {
@@ -59,7 +83,7 @@
   }
 
   .toggle-menu {
-    width: 1.4375rem;
-    height: 0.75rem;
+    width: 1.5rem;
+    height: 1.5rem;
   }
 }

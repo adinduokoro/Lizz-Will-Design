@@ -15,7 +15,7 @@ const Layout = () => {
       )}
       <Navigation/>
       <Outlet />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
