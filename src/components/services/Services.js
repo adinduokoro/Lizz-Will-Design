@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Service.module.css";
 import { cards } from "./data";
 import backgroundImage from "../../assets/homeBackgroundTwo.png";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
@@ -21,7 +22,9 @@ const Services = () => {
               Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris
               massa. Vestiem at nibh elementum imperdiet. Duis sagittis ipsum.{" "}
             </p>
-            <button className="primary-button-one">SEE SERVICES</button>
+            <Link to="services">
+              <button className="primary-button-one">SEE SERVICES</button>
+            </Link>
           </div>
           <div className={styles["cards"]}>
             {cards.map((card, index) => (

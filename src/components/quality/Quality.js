@@ -9,7 +9,7 @@ const Quality = () => {
         {cards.map((card, index) => (
           <div className={styles["card"]} key={index}>
             <div className={styles["image-container"]}>
-              <img src="" alt="" />
+              <img src={card.img} alt="" />
             </div>
             <div className={styles["title"]}>
               <h3>{card.title}</h3>

@@ -4,6 +4,7 @@ import { aboutLinks } from "./data";
 import { SectionLink } from "../../components";
 import leftArrow from "../../assets/left-arrow.svg";
 import rightArrow from "../../assets/right-arrow.svg";
+import { Link } from "react-router-dom";
 
 const About = () => {
   const [activeTab, setActiveTab] = useState(0);
@@ -12,7 +13,9 @@ const About = () => {
     <div className={styles["about"]}>
       <div className={styles["about-container"]}>
         <div className={styles["link-container"]}>
-          <SectionLink text={"About Us"} />
+          <Link to="about">
+            <SectionLink text={"About Us"} />
+          </Link>
         </div>
         <h2>About Our Design Philosophy</h2>
         <div className={styles["about-content"]}>

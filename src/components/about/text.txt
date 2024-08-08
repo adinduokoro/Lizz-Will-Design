@@ -1,9 +1,9 @@
 .about {
-  min-height: 67.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0 3%;
+
 }
 
 .about-container {
@@ -43,6 +43,10 @@
   gap: 3.56rem;
 }
 
+.content P{
+  min-height: 32rem;
+}
+
 .about-navigation-links {
   display: flex;
   flex-direction: column;
@@ -79,11 +83,15 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 1280px) {
-  .about {
-    min-height: 50rem;
+@media screen and (max-width: 1420px) {
+  .content P{
+    min-height: 43rem;
+    /* border: 1px solid pink; */
   }
+}
 
+
+@media screen and (max-width: 1280px) {
   .about-container {
     width: 70.0625rem;
   }
@@ -111,6 +119,11 @@
     gap: 3.25rem;
   }
 
+  .content P{
+    min-height: 28rem;
+    /* border: 1px solid blue; */
+  }
+
   .card-container {
     min-width: 19.375rem;
     height: 19.6875rem;
@@ -133,12 +146,17 @@
   .about-content {
     display: flex;
     flex-direction: column;
-    gap: 3.25rem;
+    gap: 2rem;
     margin-left: 2rem;
   }
 
   .content {
     gap: 3.25rem;
+  }
+
+  .content P{
+    min-height: 16rem;
+    /* border: 1px solid blue; */
   }
 
   .card-container {
@@ -171,8 +189,16 @@
   }
 
   .content {
+
+    gap: 0;
     flex-direction: column-reverse;
     text-align: center;
+  }
+
+  .content P{
+    min-height: 17rem;
+    padding-bottom: 2rem;
+    /* border: 1px solid blue; */
   }
 
   .about-content {

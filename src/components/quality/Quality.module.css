@@ -28,12 +28,21 @@
 }
 
 .image-container {
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 11.75rem;
   height: 11.75rem;
   margin-bottom: 2rem;
   border-radius: 100%;
   background-color: var(--primaryColorOrange500);
   border: 2px solid var(--blackColor500);
+}
+
+.image-container img{
+  width: 100%;
+  height: 100%;
 }
 
 .title h3 {
@@ -99,6 +108,7 @@
   }
 
   .image-container {
+  padding: .85rem;
     width: 4.5rem;
     height: 4.5rem;
     margin-bottom: 0.5rem;
