@@ -50,6 +50,7 @@
 }
 
 .about-navigation-links li h3 {
+  cursor: pointer;
   text-decoration-line: underline;
 }
 
