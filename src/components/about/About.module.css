@@ -43,6 +43,11 @@
   gap: 3.56rem;
 }
 
+.content P{
+  min-height: ;
+  border: 1px solid green;
+}
+
 .about-navigation-links {
   display: flex;
   flex-direction: column;

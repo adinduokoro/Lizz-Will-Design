@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./About.module.css";
 import { aboutLinks } from "./data";
 import { SectionLink } from "../../components";
@@ -6,6 +6,8 @@ import leftArrow from "../../assets/left-arrow.svg";
 import rightArrow from "../../assets/right-arrow.svg";
 
 const About = () => {
+  const [activeTab, setActiveTab] = useState(0);
+
   return (
     <div className={styles["about"]}>
       <div className={styles["about-container"]}>
@@ -17,21 +19,14 @@ const About = () => {
           <div className={styles["content"]}>
             <ul className={styles["about-navigation-links"]}>
               {aboutLinks.map((link, index) => (
-                <li key={index}>
-                  <h3>{link}</h3>
+                <li key={index} onClick={() => setActiveTab(index)}>
+                  <h3>{link.tab}</h3>
                 </li>
               ))}
             </ul>
             <p>
               {/* 590 character count */}
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
-              Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
-              Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris
-              massa. Vesti bcursus ante dapibus diam. Sed nisi. Nulla quis sem
-              at nibh elementum imperdiet. Duis sagm dolor sit amet, consectetur
-              adipiscing elit. Integer nec odio. Praesent libero. Sed cursus
-              ante dapibus diam. Sed nisi. Nulla quis sem.
+              {aboutLinks[activeTab].text}
             </p>
           </div>
           <div className={styles["card-container"]}>
