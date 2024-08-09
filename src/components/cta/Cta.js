@@ -4,7 +4,6 @@ import SectionLink from "../sectionLink/SectionLink";
 import { Link } from "react-router-dom";
 import Typed from "typed.js";
 
-
 const Cta = () => {
   const el = useRef(null);
 
@@ -39,9 +38,11 @@ const Cta = () => {
       </div>
       <div className={styles["bottom"]}>
         <h2>Thinking about a new project?</h2>
-        <p>Feel free to say <span ref={el}></span></p>
+        <p>
+          Feel free to say <span ref={el}></span>
+        </p>
         <Link to="contact">
-        <button className="secondary-button-two">Let's Talk</button>
+          <button className="secondary-button-two">Let's Talk</button>
         </Link>
       </div>
     </div>

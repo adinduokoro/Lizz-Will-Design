@@ -168,6 +168,13 @@ p {
   line-height: 1.5rem;
   border: 3px solid var(--whiteColor500);
   width: 34rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.secondary-button-two:hover{
+  background-color: var(--blackColor500);
+  color: var(--whiteColor500);
+  border: 3px solid var(--blackColor500);
 }
 
 @media screen and (max-width: 1280px) {
