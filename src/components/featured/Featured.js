@@ -47,7 +47,7 @@ const Featured = () => {
       const newIndex = nextIndex === images.length - 1 ? 0 : nextIndex + 1;
       return newIndex;
     });
-    // setTimer(7); // reset timer
+    setTimer(7); // reset timer
   };
 
   const prevSlide = () => {
@@ -55,7 +55,7 @@ const Featured = () => {
       const newIndex = prevIndex === 0 ? images.length - 1 : prevIndex - 1;
       return newIndex;
     });
-    // setTimer(7); // reset timer
+    setTimer(7); // reset timer
   };
 
   return (
