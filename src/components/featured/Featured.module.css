@@ -42,6 +42,8 @@
 
 .showSlide{
 display: block;
+animation-name: animate;
+animation-duration: 2s;
 }
 
 .left, .right{
@@ -75,6 +77,15 @@ display: block;
   right: 0;
   border-radius: var(--radius) 0 0 var(--radius);
 
+}
+
+@keyframes animate {
+  from {
+    transform: scale(1.1) rotateY(10deg);
+  }
+  to {
+    transform: scale(1) rotateY(0deg);
+  }
 }
 
 

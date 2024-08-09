@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./Featured.module.css";
 import leftArrow from "../../assets/left-arrow.svg";
 import rightArrow from "../../assets/right-arrow.svg";
@@ -29,6 +29,18 @@ const images = [
 
 const Featured = () => {
   const [sliderIndex, setSliderIndex] = useState(0);
+  const [timer, setTimer] = useState(7); // seconds
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setTimer((prev) => (prev > 1 ? prev - 1 : 7));
+      if (timer === 1) {
+        nextSlide();
+      }
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, [timer]);
 
   const nextSlide = () => {
     setSliderIndex((nextIndex) => {

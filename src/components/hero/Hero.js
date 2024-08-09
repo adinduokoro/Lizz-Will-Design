@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import styles from "./Hero.module.css";
 import Typed from "typed.js";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   const el = useRef(null);
@@ -31,8 +32,12 @@ const Hero = () => {
             & Bath Renovations, and So Much More
           </p>
           <div className={styles["cta-buttons"]}>
-            <button className="primary-button-one">GET A QUOTE</button>
-            <button className="secondary-button-one">SEE SERVICES</button>
+            <Link to="contact">
+              <button className="primary-button-one">GET A QUOTE</button>
+            </Link>
+            <Link to="services">
+              <button className="secondary-button-one">SEE SERVICES</button>
+            </Link>
           </div>
         </div>
       </div>

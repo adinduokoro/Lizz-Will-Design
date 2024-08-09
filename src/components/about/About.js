@@ -54,7 +54,9 @@ const About = () => {
               </div>
             </div>
           </div>
-          <button className="primary-button-two">View our Portfolio</button>
+          <Link to="portfolio">
+            <button className="primary-button-two">View our Portfolio</button>
+          </Link>
         </div>
       </div>
     </div>
