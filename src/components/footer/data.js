@@ -7,10 +7,10 @@ import phone from "../../assets/mdi_phone.svg";
 import email from "../../assets/mdi_email.svg";
 
 export const socialLinks = [
-  { name: "linkedin", img: linkedIn },
-  { name: "twitter", img: twitter },
-  { name: "facebook", img: facebook },
-  { name: "instagram", img: instagram },
+  { name: "linkedin", img: linkedIn, href: "https://www.linkedin.com/" },
+  { name: "twitter", img: twitter, href: "https://twitter.com/?lang=en" },
+  { name: "facebook", img: facebook, href: "https://www.facebook.com/" },
+  { name: "instagram", img: instagram, href: "https://www.instagram.com/" },
 ];
 
 export const contactDetails = [
@@ -18,7 +18,7 @@ export const contactDetails = [
     name: "license",
     img: license,
     detail: "MHIC 01-157071",
-    href: "javascript:void(0)",
+    href: "#",
     class: "disabled-link"
   },
   {

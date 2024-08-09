@@ -56,15 +56,21 @@ const Footer = () => {
           <div className={styles["copyright"]}>
             © {year} Lizz Will Design & Renovation. All rights reserved. Created
             by
-            <a href="https://bytebackdigital.com/" target="_blank">
+            <a
+              href="https://bytebackdigital.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <span> Byte Back Digital.</span>
             </a>
           </div>
           <div className={styles["social-icons"]}>
             {socialLinks.map((icon, index) => (
-              <div className={styles["icon"]} key={index}>
-                <img src={icon.img} alt={icon.name} />
-              </div>
+              <a href={icon.href} target="_blank" rel="noopener noreferrer">
+                <div className={styles["icon"]} key={index}>
+                  <img src={icon.img} alt={icon.name} />
+                </div>
+              </a>
             ))}
           </div>
         </div>

@@ -95,6 +95,14 @@ form button {
   font-weight: 400;
   border: 2px solid var(--whiteColor500);
   line-height: 1.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+form button:hover {
+  color: var(--blackColor500);
+  background-color: var(--primaryColorOrange500);
+  font-weight: 600;
+
 }
 
 form textarea {
@@ -127,6 +135,11 @@ form textarea::placeholder {
 
 .copyright span {
   font-style: italic;
+  transition: color 0.2s ease-in-out;
+}
+
+.copyright span:hover{
+  color: var(--primaryColorOrange500);
 }
 
 .social-icons {
@@ -143,6 +156,12 @@ form textarea::placeholder {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  transition: border 0.2s ease-in-out;
+}
+
+.icon:hover{
+  border: 2px solid var(--primaryColorOrange500);
+
 }
 
 @media screen and (max-width: 1048px) {
