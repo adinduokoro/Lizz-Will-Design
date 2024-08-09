@@ -59,6 +59,14 @@ li {
 
 a {
   text-decoration: none;
+  all: unset;
+  display: inline;
+  cursor: pointer;
+}
+
+a.disabled-link {
+  pointer-events: none;
+  cursor: default;
 }
 
 input,
@@ -125,10 +133,9 @@ p {
   background-color: var(--whiteColor500);
   color: var(--blackColor500);
   transition: background-color 0.2s ease-in-out;
-
 }
 
-.secondary-button-one:hover{
+.secondary-button-one:hover {
   background-color: var(--whiteColor600);
 }
 
@@ -138,7 +145,7 @@ p {
   transition: background-color 0.2s ease-in-out;
 }
 
-.primary-button-one:hover{
+.primary-button-one:hover {
   background-color: var(--primaryColorOrange600);
 }
 
@@ -152,7 +159,6 @@ p {
   width: 15.9375rem;
 }
 
-
 .secondary-button-two {
   background: none;
   color: var(--whiteColor500);
@@ -163,7 +169,6 @@ p {
   border: 3px solid var(--whiteColor500);
   width: 34rem;
 }
-
 
 @media screen and (max-width: 1280px) {
   h1,
@@ -186,7 +191,7 @@ p {
   .secondary-button-two {
     height: 6.2125rem;
     width: 23.8rem;
-    font-size: 2.090375rem;   
+    font-size: 2.090375rem;
     font-weight: 400;
     line-height: 1.5rem;
   }
@@ -220,11 +225,10 @@ p {
     height: 2.375rem;
   }
 
-  .secondary-button-two{
+  .secondary-button-two {
     height: 4.34875rem;
-width: 16.66rem;
-font-size: 1.4632625rem;
-
+    width: 16.66rem;
+    font-size: 1.4632625rem;
   }
 }
 
@@ -243,9 +247,9 @@ font-size: 1.4632625rem;
     line-height: 1.5rem;
   }
 
-  .secondary-button-two{
+  .secondary-button-two {
     height: 3.044125rem;
-width: 11.662rem;
-font-size: 1.02428375rem;
+    width: 11.662rem;
+    font-size: 1.02428375rem;
   }
 }

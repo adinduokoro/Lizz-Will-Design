@@ -14,7 +14,26 @@ export const socialLinks = [
 ];
 
 export const contactDetails = [
-  { name: "license", img: license, detail: "MHIC 01-157071" },
-  { name: "phone", img: phone, detail: "443-218-3344" },
-  { name: "email", img: email, detail: "lizwilldesign@gmail.com" },
+  {
+    name: "license",
+    img: license,
+    detail: "MHIC 01-157071",
+    href: "javascript:void(0)",
+    class: "disabled-link"
+  },
+  {
+    name: "phone",
+    img: phone,
+    detail: "443-218-3344",
+    href: "tel:+14432183344",
+    class: ""
+
+  },
+  {
+    name: "email",
+    img: email,
+    detail: "lizwilldesign@gmail.com",
+    href: "mailto:lizwilldesign@gmail.com",
+    class: ""
+  },
 ];
