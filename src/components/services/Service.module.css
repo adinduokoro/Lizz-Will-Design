@@ -195,7 +195,8 @@
 
 @media screen and (max-width: 668px) {
   .service {
-    min-height: 45.5rem;
+    min-height: 37.5rem;
+    margin-bottom: 5rem;
   }
 
   .background-container {
@@ -278,5 +279,11 @@
 
   .card:hover p {
     color: var(--primaryColorOrange600);
+  }
+}
+
+@media screen and (max-width: 568px){
+  .service{
+    margin-bottom: 0;
   }
 }
