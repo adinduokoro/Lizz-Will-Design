@@ -284,6 +284,7 @@
 
 @media screen and (max-width: 568px){
   .service{
+    min-height: 45.5rem;
     margin-bottom: 0;
   }
 }
