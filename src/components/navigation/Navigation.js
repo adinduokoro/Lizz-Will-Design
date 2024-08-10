@@ -15,9 +15,11 @@ const Navigation = () => {
       </div>
       <ul className={styles["navigation-links"]}>
         {navLinks.map((link, index) => (
-          <li key={index} className={styles["nav-item"]}>
-            {link.name}
-          </li>
+          <Link to={link.path}>
+            <li key={index} className={styles["nav-item"]}>
+              {link.name}
+            </li>
+          </Link>
         ))}
       </ul>
       <img className={styles["toggle-menu"]} src={menuIcon} alt="toggle menu" />
