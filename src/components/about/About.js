@@ -13,9 +13,9 @@ const About = () => {
     <div className={styles["about"]}>
       <div className={styles["about-container"]}>
         <div className={styles["link-container"]}>
-          <Link to="about">
+          {/* <Link to="about"> */}
             <SectionLink text={"About Us"} />
-          </Link>
+          {/* </Link> */}
         </div>
         <h2>About Our Design Philosophy</h2>
         <div className={styles["about-content"]}>

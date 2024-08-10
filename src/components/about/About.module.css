@@ -91,7 +91,7 @@
   .link-container {
     display: flex;
     align-items: center;
-    width: 10rem; /* adjust link distance from the right */
+    width: 6rem; /* adjust link distance from the right */
     height: 3rem;
     align-self: end;
   }

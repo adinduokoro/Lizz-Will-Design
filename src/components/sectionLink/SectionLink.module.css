@@ -3,6 +3,11 @@
   align-items: start;
   position: relative;
   gap: 1.06rem;
+  transition: gap 0.2s ease-in-out;
+}
+
+.section-link:hover{
+  gap: 1.59rem;
 }
 
 .page-link {
@@ -37,6 +42,10 @@
 @media screen and (max-width: 1280px) {
   .section-link {
     gap: 0.5rem;
+  }
+
+  .section-link:hover{
+    gap: 0.875rem;
   }
 
   .text{

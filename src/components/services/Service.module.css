@@ -252,8 +252,8 @@
   }
 
   .card {
-    border: 2px solid #120703;
-    max-width: 23.4375rem;
+    border: 2px solid var(--blackColor500);
+    max-width: 21.4375rem;
     max-height: none;
     height: 5rem;
   }
@@ -273,5 +273,10 @@
     color: var(--blackColor500);
     width: none;
     text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .card:hover p {
+    color: var(--primaryColorOrange600);
   }
 }
