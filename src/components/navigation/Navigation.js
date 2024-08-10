@@ -29,6 +29,11 @@ const Navigation = () => {
         ))}
       </ul>
 
+
+
+
+
+
       <div className={styles["desktop-mobile-menu"]}>
         {/* close icons */}
         {/* img h3 about header */}
@@ -44,6 +49,11 @@ const Navigation = () => {
         {/* img header */}
         {/* img description */}
       </div>
+
+
+
+
+
 
       <img className={styles["toggle-menu"]} src={menuIcon} alt="toggle menu" onClick={toggleMenu}/>
     </nav>
