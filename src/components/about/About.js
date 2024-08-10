@@ -7,15 +7,16 @@ import rightArrow from "../../assets/right-arrow.svg";
 import { Link } from "react-router-dom";
 
 const About = () => {
+  const maxLength = 590;
   const [activeTab, setActiveTab] = useState(0);
 
   return (
     <div className={styles["about"]}>
       <div className={styles["about-container"]}>
         <div className={styles["link-container"]}>
-          {/* <Link to="about"> */}
+          <Link to="about">
             <SectionLink text={"About Us"} />
-          {/* </Link> */}
+          </Link>
         </div>
         <h2>About Our Design Philosophy</h2>
         <div className={styles["about-content"]}>
@@ -28,8 +29,7 @@ const About = () => {
               ))}
             </ul>
             <p>
-              {/* 590 character count */}
-              {aboutLinks[activeTab].text}
+              {aboutLinks[activeTab].text.substring(0, maxLength)}
             </p>
           </div>
           <div className={styles["card-container"]}>
