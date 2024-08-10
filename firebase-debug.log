@@ -1,0 +1,35 @@
+[debug] [2024-08-10T12:41:20.518Z] ----------------------------------------------------------------------
+[debug] [2024-08-10T12:41:20.527Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\addie\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-08-10T12:41:20.528Z] CLI Version:   11.30.0
+[debug] [2024-08-10T12:41:20.529Z] Platform:      win32
+[debug] [2024-08-10T12:41:20.529Z] Node Version:  v18.16.0
+[debug] [2024-08-10T12:41:20.530Z] Time:          Sat Aug 10 2024 08:41:20 GMT-0400 (Eastern Daylight Time)
+[debug] [2024-08-10T12:41:20.531Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-08-10T12:41:20.986Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-08-10T12:41:20.994Z] > authorizing via signed-in user (imrmarvel@gmail.com)
+[debug] [2024-08-10T12:41:20.995Z] [iam] checking project liz-will-design for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-08-10T12:41:20.998Z] > refreshing access token with scopes: []
+[debug] [2024-08-10T12:41:21.001Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-08-10T12:41:21.002Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-08-10T12:41:21.630Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-08-10T12:41:21.632Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-08-10T12:41:21.699Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/liz-will-design:testIamPermissions [none]
+[debug] [2024-08-10T12:41:21.699Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/liz-will-design:testIamPermissions x-goog-quota-user=projects/liz-will-design
+[debug] [2024-08-10T12:41:21.699Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/liz-will-design:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-08-10T12:41:21.916Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/liz-will-design:testIamPermissions 200
+[debug] [2024-08-10T12:41:21.916Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/liz-will-design:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-08-10T12:41:21.918Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/liz-will-design [none]
+[debug] [2024-08-10T12:41:22.383Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/liz-will-design 200
+[debug] [2024-08-10T12:41:22.384Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/liz-will-design {"projectId":"liz-will-design","projectNumber":"812210993247","displayName":"Liz Will Design","name":"projects/liz-will-design","resources":{"hostingSite":"liz-will-design"},"state":"ACTIVE","etag":"1_26b4ebdb-6efb-4e27-88f3-3ea5f52a2e7e"}
+[info] 
+[info] === Deploying to 'liz-will-design'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2024-08-10T12:41:22.441Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/liz-will-design/versions [none]
+[debug] [2024-08-10T12:41:22.441Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/liz-will-design/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2024-08-10T12:41:23.178Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/liz-will-design/versions 200
+[debug] [2024-08-10T12:41:23.179Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/liz-will-design/versions {"name":"projects/812210993247/sites/liz-will-design/versions/840c9933cad08cca","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[liz-will-design]: beginning deploy... 
+[info] i  hosting[liz-will-design]: found 32 files in build 
+[debug] [2024-08-10T12:41:23.217Z] [hosting] uploading with 200 concurrency
