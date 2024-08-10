@@ -96,6 +96,7 @@ form button {
   border: 2px solid var(--whiteColor500);
   line-height: 1.5rem;
   transition: all 0.2s ease-in-out;
+  border-radius: var(--radius);
 }
 
 form button:hover {
