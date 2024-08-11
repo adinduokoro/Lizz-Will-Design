@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "./Navigation.module.css";
 import logo from "../../assets/liz-will-logo-short.svg";
 import menuIcon from "../../assets/toggle-menu.svg";
@@ -15,16 +15,20 @@ const Navigation = () => {
     dispatch(SET_MENU_TOGGLE(!isMenuOpen))
   };
 
+  const closeMenu = () => {
+    dispatch(SET_MENU_TOGGLE(false));
+  };
+
   return (
     <nav className={styles["navigation"]}>
       <div className={styles["logo-container"]}>
-        <Link to="/">
+        <Link to="/" onClick={closeMenu}>
           <img src={logo} alt="Lizz Will Design & Renovation Logo" />
         </Link>
       </div>
       <ul className={styles["navigation-links"]}>
         {navLinks.map((link, index) => (
-          <Link to={link.path}>
+          <Link to={link.path} onClick={closeMenu}>
             <li key={index} className={styles["nav-item"]}>
               {link.name}
             </li>

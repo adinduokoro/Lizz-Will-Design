@@ -2,7 +2,6 @@ import linkedIn from "../../assets/ri_linkedin-fill-orange.svg";
 import twitter from "../../assets/mdi_twitter-orange.svg";
 import facebook from "../../assets/ri_facebook-fill-orange.svg";
 import instagram from "../../assets/mdi_instagram-orange.svg";
-import marker from "../../assets/carbon_location-filled-orange.svg"
 import phone from "../../assets/mdi_phone-orange.svg";
 import email from "../../assets/mdi_email-orange.svg";
 
@@ -14,12 +13,6 @@ export const socialLinks = [
 ];
 
 export const contactDetails = [
-  // {
-  //   name: "location",
-  //   img: marker,
-  //   detail: "P.O. BOX 123 Baltimore, MD 21236",
-  //   href: "#",
-  // },
   {
     name: "phone",
     img: phone,
