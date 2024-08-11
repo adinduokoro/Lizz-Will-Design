@@ -5,6 +5,7 @@ import headerIcon from "../../assets/header-img-icon.svg";
 import { socialLinks } from "./data";
 import { useSelector, useDispatch } from "react-redux";
 import { selectIsMenuOpen, SET_MENU_TOGGLE } from "../../redux/slice/menuSlice";
+import { contactDetails } from "./data";
 
 const DesktopMenu = () => {
   const dispatch = useDispatch();
@@ -37,9 +38,14 @@ const DesktopMenu = () => {
           <img src={headerIcon} alt="header icon" />
           <h3>Contact Info</h3>
         </div>
-        {/* icon address */}
-        {/* icon phone */}
-        {/* icon email */}
+        <div className={styles["contact-details"]}>
+          {contactDetails.map((contact, index) => (
+            <div className={styles["contact"]} key={index}>
+              <img src={contact.img} alt={contact.name}/>
+              <p>{contact.detail}</p>
+            </div>
+          ))}
+        </div>
         <div className={styles["social-icons"]}>
           {socialLinks.map((icon, index) => (
             <div className={styles["icon"]} key={index}>
