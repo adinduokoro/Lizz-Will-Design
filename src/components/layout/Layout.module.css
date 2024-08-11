@@ -17,7 +17,6 @@
 }
 
 .close-container {
-  border: 2px solid green;
   display: flex;
   justify-content: flex-end;
 }
@@ -33,7 +32,6 @@
 .desktop-menu-container {
   padding: 0 3rem;
   margin-top: 1rem;
-  border: 2px solid green;
 }
 
 .mobile-header {
@@ -52,14 +50,33 @@ height: 12.625rem;
 margin-bottom: 1rem;
 }
 
-.desktop-menu-container p{
+.desktop-menu-container p,
+.image-description p{
   font-size: 1rem;
   margin-bottom: 1rem;
   line-height: 2rem;
+  width: 21.75rem;
+
 }
 
 .desktop-menu-container button{
   margin-bottom: 4rem;
+}
+
+.social-icons{
+  display: flex;
+  gap: 0.88rem;
+  margin-bottom: 4rem;
+}
+
+.icon{
+  width: 3.125rem;
+height: 3.125rem;
+border-radius: 3.125rem;
+border: 3px solid var(--primaryColorOrange500);
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .image-container{
@@ -70,3 +87,21 @@ margin-bottom: 1rem;
 
 
 }
+
+.image-description{
+  width: 100%;
+  width: 21.75rem;
+  margin-bottom: 16rem;
+}
+
+.image-description h3{
+  font-size: 1.72813rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .desktop-mobile-menu{
+    display: none;
+  }
+}
+
