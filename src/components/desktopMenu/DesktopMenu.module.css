@@ -104,7 +104,8 @@ line-height: 2rem; /* 200% */
 }
 
 .icon {
-  width: 3.125rem;
+    width: 3.125rem;
+    cursor: pointer;
   height: 3.125rem;
   border-radius: 3.125rem;
   border: 3px solid var(--primaryColorOrange500);

@@ -7,12 +7,20 @@ import { useSelector, useDispatch } from "react-redux";
 import { selectIsMenuOpen, SET_MENU_TOGGLE } from "../../redux/slice/menuSlice";
 import { contactDetails } from "./data";
 import marker from "../../assets/carbon_location-filled-orange.svg";
+import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const DesktopMenu = () => {
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const isMenuOpen = useSelector(selectIsMenuOpen);
 
   const closeMenu = () => {
+    dispatch(SET_MENU_TOGGLE(false));
+  };
+
+  const handleClick = () => {
+    navigate("/about");
     dispatch(SET_MENU_TOGGLE(false));
   };
 
@@ -34,15 +42,13 @@ const DesktopMenu = () => {
         <p>
           Lorem Ipsum is simply dummy text of tting and typesetting industry.
         </p>
-        <button className="primary-button-one">Learn More</button>
+        <button className="primary-button-one" onClick={handleClick}>
+          Learn More
+        </button>
         <div className={styles["mobile-header"]}>
           <img src={headerIcon} alt="header icon" />
           <h3>Contact Info</h3>
         </div>
-
-
-
-
 
         <div className={styles["contact-details"]}>
           <div className={styles["address"]}>
@@ -52,27 +58,22 @@ const DesktopMenu = () => {
               <span>Baltimore, MD 21236</span>
             </div>
           </div>
-
-
-
-
           {contactDetails.map((contact, index) => (
-            <div className={styles["contact"]} key={index}>
-              <img src={contact.img} alt={contact.name} />
-              <p>{contact.detail}</p>
-            </div>
+            <a href={contact.href} target="_blank" rel="noopener noreferrer">
+              <div className={styles["contact"]} key={index}>
+                <img src={contact.img} alt={contact.name} />
+                <p>{contact.detail}</p>
+              </div>
+            </a>
           ))}
         </div>
-
-
-
-
-
         <div className={styles["social-icons"]}>
           {socialLinks.map((icon, index) => (
-            <div className={styles["icon"]} key={index}>
-              <img src={icon.img} alt={icon.name} />
-            </div>
+            <a href={icon.href} target="_blank" rel="noopener noreferrer">
+              <div className={styles["icon"]} key={index}>
+                <img src={icon.img} alt={icon.name} />
+              </div>
+            </a>
           ))}
         </div>
         <div className={styles["image-container"]}>img</div>
