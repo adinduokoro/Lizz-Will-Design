@@ -30,7 +30,6 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  /* Ensure no play button overlay */
   pointer-events: none;
   
 }
