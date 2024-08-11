@@ -13,7 +13,7 @@ const Layout = () => {
 
   return (
     <div className={styles.layout}>
-      <div className={styles["desktop-mobile-menu"]}>
+      <div className={`${styles["desktop-mobile-menu"]} ${styles["active"]}`}>
         <div className={styles["close-container"]}>
           <img src={closeIcon} alt="close icon" />
         </div>

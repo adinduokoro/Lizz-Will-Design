@@ -4,12 +4,15 @@ import logo from "../../assets/liz-will-logo-short.svg";
 import menuIcon from "../../assets/toggle-menu.svg";
 import { navLinks } from "./data";
 import { Link } from "react-router-dom";
+import { useSelector, useDispatch } from "react-redux";
+import { selectIsMenuOpen, SET_MENU_TOGGLE } from "../../redux/slice/menuSlice";
 
 const Navigation = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const dispatch = useDispatch()
+  const isMenuOpen = useSelector(selectIsMenuOpen)
 
   const toggleMenu = () => {
-    setIsOpen(!isOpen);
+    dispatch(SET_MENU_TOGGLE(!isMenuOpen))
   };
 
   return (
