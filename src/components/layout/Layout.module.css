@@ -1,3 +1,72 @@
 .layout {
   position: relative;
 }
+
+.desktop-mobile-menu {
+  overflow-y: auto;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  z-index: 5;
+  background-color: var(--whiteColor500);
+  width: 444px;
+  box-shadow: -8px 8px 31px 0px rgba(0, 0, 0, 0.25);
+  border-left: 2px solid var(--primaryColorOrange500);
+}
+
+.close-container {
+  border: 2px solid green;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.close-container img {
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: pointer;
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+
+.desktop-menu-container {
+  padding: 0 3rem;
+  margin-top: 1rem;
+  border: 2px solid green;
+}
+
+.mobile-header {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.mobile-header h3 {
+  margin-left: 0.5rem;
+}
+
+.about-image-container{
+  border: 2px solid black;
+  width: 21.75rem;
+height: 12.625rem;
+margin-bottom: 1rem;
+}
+
+.desktop-menu-container p{
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  line-height: 2rem;
+}
+
+.desktop-menu-container button{
+  margin-bottom: 4rem;
+}
+
+.image-container{
+  width: 21.75rem;
+height: 18.9375rem;
+border: 2px solid black;
+margin-bottom: 1rem;
+
+
+}
