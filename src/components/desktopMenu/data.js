@@ -14,12 +14,12 @@ export const socialLinks = [
 ];
 
 export const contactDetails = [
-  {
-    name: "location",
-    img: marker,
-    detail: "P.O. BOX 123 Baltimore, MD 21236",
-    href: "#",
-  },
+  // {
+  //   name: "location",
+  //   img: marker,
+  //   detail: "P.O. BOX 123 Baltimore, MD 21236",
+  //   href: "#",
+  // },
   {
     name: "phone",
     img: phone,

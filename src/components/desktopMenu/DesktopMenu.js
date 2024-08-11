@@ -6,6 +6,7 @@ import { socialLinks } from "./data";
 import { useSelector, useDispatch } from "react-redux";
 import { selectIsMenuOpen, SET_MENU_TOGGLE } from "../../redux/slice/menuSlice";
 import { contactDetails } from "./data";
+import marker from "../../assets/carbon_location-filled-orange.svg";
 
 const DesktopMenu = () => {
   const dispatch = useDispatch();
@@ -38,14 +39,35 @@ const DesktopMenu = () => {
           <img src={headerIcon} alt="header icon" />
           <h3>Contact Info</h3>
         </div>
+
+
+
+
+
         <div className={styles["contact-details"]}>
+          <div className={styles["address"]}>
+            <img src={marker} alt="location" />
+            <div className={styles["address-details"]}>
+              <span>P.O. BOX 123</span>
+              <span>Baltimore, MD 21236</span>
+            </div>
+          </div>
+
+
+
+
           {contactDetails.map((contact, index) => (
             <div className={styles["contact"]} key={index}>
-              <img src={contact.img} alt={contact.name}/>
+              <img src={contact.img} alt={contact.name} />
               <p>{contact.detail}</p>
             </div>
           ))}
         </div>
+
+
+
+
+
         <div className={styles["social-icons"]}>
           {socialLinks.map((icon, index) => (
             <div className={styles["icon"]} key={index}>
