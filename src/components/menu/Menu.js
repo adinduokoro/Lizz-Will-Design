@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./DesktopMenu.module.css";
+import styles from "./Menu.module.css";
 import closeIcon from "../../assets/close-icon.svg";
 import headerIcon from "../../assets/header-img-icon.svg";
 import { socialLinks } from "./data";
@@ -9,8 +9,9 @@ import { contactDetails } from "./data";
 import marker from "../../assets/carbon_location-filled-orange.svg";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import { navLinks } from "../navigation/data";
 
-const DesktopMenu = () => {
+const Menu = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const isMenuOpen = useSelector(selectIsMenuOpen);
@@ -26,7 +27,12 @@ const DesktopMenu = () => {
 
   return (
     <div className={styles["desktop-and-mobile-menus"]}>
-      <div className={`${styles["menu-overlay"]} ${isMenuOpen ? styles["overlay-active"] : ""}`} onClick={closeMenu}></div>
+      <div
+        className={`${styles["menu-overlay"]} ${
+          isMenuOpen ? styles["overlay-active"] : ""
+        }`}
+        onClick={closeMenu}
+      ></div>
       <div
         className={`${styles["desktop-mobile-menu"]} ${
           isMenuOpen ? styles["active"] : ""
@@ -88,8 +94,23 @@ const DesktopMenu = () => {
           </div>
         </div>
       </div>
+
+      <div className={styles["mobile-mobile-menu"]}>
+        <div className={styles["mobile-close-container"]}>
+          <img src={closeIcon} onClick={closeMenu} alt="close icon" />
+        </div>
+        <div className={styles["logo-container"]}>
+          <img src="" alt="" />
+        </div>
+        <div className={styles["mobile-nav-menu"]}>
+          {/* nav menus and icon */}
+        </div>
+        <form className={styles["mobile-news-letter"]}>
+          {/* input and button */}
+        </form>
+      </div>
     </div>
   );
 };
 
-export default DesktopMenu;
+export default Menu;
