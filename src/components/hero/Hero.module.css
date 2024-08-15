@@ -16,7 +16,7 @@
 .hero-cta h1 {
   width: 45.25rem;
   margin-bottom: 1rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, .75);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
 }
 
 .hero-cta h1 span {
@@ -40,6 +40,7 @@
   }
 
   .hero-container {
+    padding: 0 3rem;
     width: 58.125rem;
   }
 
@@ -58,7 +59,7 @@
 
 @media screen and (max-width: 960px) {
   .hero-container {
-    width: 35.125rem;
+    width: 45.125rem;
   }
 
   .hero-cta h1 {
@@ -81,7 +82,7 @@
 }
 
 @media screen and (max-width: 668px) {
-  .hero-container{
+  .hero-container {
     padding: 0 3%;
   }
   .hero-cta {
@@ -99,9 +100,5 @@
 @media screen and (max-width: 568px) {
   .hero {
     min-height: 45.576rem;
-  }
-
-  .hero-cta {
-    margin-top: 7.62rem;
   }
 }

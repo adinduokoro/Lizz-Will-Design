@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Menu.module.css";
 import closeIcon from "../../assets/close-icon.svg";
+import closeIconWhite from "../../assets/close-icon-white.svg";
 import headerIcon from "../../assets/header-img-icon.svg";
 import { socialLinks } from "./data";
 import { useSelector, useDispatch } from "react-redux";
@@ -10,6 +11,9 @@ import marker from "../../assets/carbon_location-filled-orange.svg";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { navLinks } from "../navigation/data";
+import mobileLogo from "../../assets/mobile-menu-logo.svg";
+import indent from "../../assets/star-vector.svg";
+import planeIcon from "../../assets/button-icon.svg";
 
 const Menu = () => {
   const dispatch = useDispatch();
@@ -95,18 +99,40 @@ const Menu = () => {
         </div>
       </div>
 
-      <div className={styles["mobile-mobile-menu"]}>
+      <div
+        className={`${styles["mobile-mobile-menu"]} ${
+          isMenuOpen ? styles["active"] : ""
+        }`}
+      >
         <div className={styles["mobile-close-container"]}>
-          <img src={closeIcon} onClick={closeMenu} alt="close icon" />
+          <img src={closeIconWhite} onClick={closeMenu} alt="close icon" />
         </div>
         <div className={styles["logo-container"]}>
-          <img src="" alt="" />
+          <img src={mobileLogo} alt="" />
         </div>
         <div className={styles["mobile-nav-menu"]}>
-          {/* nav menus and icon */}
+          {navLinks.map((link, index) => (
+            <Link to={link.path} onClick={closeMenu}>
+            <li key={index}>
+              <span>{link.name}</span>
+              <img src={indent} alt="" />
+            </li>
+            </Link>
+          ))}
         </div>
-        <form className={styles["mobile-news-letter"]}>
-          {/* input and button */}
+        <form className={styles["mobile-newsletter"]}>
+          <div className={styles["newsletter-description"]}>
+            <span>Join Our Newsletter</span>
+            <span>
+              Stay ahead with the latest updates and exclusive offers.
+            </span>
+          </div>
+          <form className={styles["newsletter-input"]}>
+            <input type="text" placeholder="Your email address" />
+            <button>
+              <img src={planeIcon} alt="" />
+            </button>
+          </form>
         </form>
       </div>
     </div>
