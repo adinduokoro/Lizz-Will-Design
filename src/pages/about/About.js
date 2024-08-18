@@ -7,7 +7,6 @@ const About = () => {
     <div className={`${styles["about"]} webPage`}>
       <SubPageHeader
         title={"About Us"}
-        subTitle={"This is the about page where you can reach me at anytime"}
       />
     </div>
   )

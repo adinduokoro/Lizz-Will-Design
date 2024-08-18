@@ -7,7 +7,6 @@ const Services = () => {
     <div className={`${styles["services"]} webPage`}>
     <SubPageHeader
       title={"Our Services"}
-      subTitle={"This is the service page where you can reach me at anytime"}
     />
   </div>
   )

@@ -7,7 +7,6 @@ const Blog = () => {
     <div className={`${styles["blog"]} webPage`}>
       <SubPageHeader
         title={"Blog"}
-        subTitle={"This is the blog page where you can reach me at anytime"}
       />
     </div>
   )

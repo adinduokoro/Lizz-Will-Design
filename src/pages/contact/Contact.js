@@ -7,7 +7,6 @@ const Contact = () => {
     <div className={`${styles["contact"]} webPage`}>
       <SubPageHeader
         title={"Contact Us"}
-        subTitle={"This is the contact page where you can reach me at anytime"}
       />
     </div>
   );
