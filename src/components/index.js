@@ -1,7 +1,8 @@
 export { default as Layout } from "./layout/Layout";
-export { default as Menu } from "./menu/Menu";
 export { default as Navigation } from "./navigation/Navigation";
+export { default as Menu } from "./menu/Menu";
 export { default as Hero } from "./hero/Hero";
+export { default as SubPageHeader } from "./subPageHeader/SubPageHeader";
 export { default as About } from "./about/About";
 export { default as SectionLink } from "./sectionLink/SectionLink";
 export { default as Quality } from "./quality/Quality";
