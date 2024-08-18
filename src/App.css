@@ -178,6 +178,10 @@ p {
   border: 3px solid var(--blackColor500);
 }
 
+.webPage{
+  padding-top: 8.25rem;
+}
+
 @media screen and (max-width: 1280px) {
   h1,
   h2 {
@@ -237,6 +241,12 @@ p {
     height: 4.34875rem;
     width: 16.66rem;
     font-size: 1.4632625rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .webPage{
+    padding-top: 4.125rem;
   }
 }
 
