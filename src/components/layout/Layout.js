@@ -12,7 +12,11 @@ const Layout = () => {
   return (
     <div className={styles.layout}>
       <Menu />
-      {location.pathname === "/" ? <HomePageBackGroundOne video={video} /> : <OtherPageBackground />}
+      {location.pathname === "/" ? (
+        <HomePageBackGroundOne video={video} />
+      ) : (
+        <OtherPageBackground />
+      )}
       <Navigation />
       <Outlet />
       <Footer />
