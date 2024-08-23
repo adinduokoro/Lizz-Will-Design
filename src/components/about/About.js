@@ -24,7 +24,7 @@ const About = () => {
             <ul className={styles["about-navigation-links"]}>
               {aboutLinks.map((link, index) => (
                 <li key={index} onClick={() => setActiveTab(index)}>
-                  <h3>{link.tab}</h3>
+                  <h4>{link.tab}</h4>
                 </li>
               ))}
             </ul>

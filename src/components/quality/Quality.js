@@ -11,7 +11,7 @@ const Quality = () => {
             <div className={styles["image-container"]}>
               <img src={card.img} alt="" />
             </div>
-            <div className={styles["title"]}>
+            <div>
               <h3>{card.title}</h3>
             </div>
             <div className={styles["description"]}>
