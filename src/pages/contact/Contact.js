@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Contact.module.css";
-import { SubPageHeader } from "../../components";
+import { ContactForm, SubPageHeader } from "../../components";
 
 const Contact = () => {
   return (
@@ -8,6 +8,7 @@ const Contact = () => {
       <SubPageHeader
         title={"Contact Us"}
       />
+      <ContactForm />
     </div>
   );
 };

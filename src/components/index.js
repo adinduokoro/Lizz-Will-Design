@@ -9,4 +9,5 @@ export { default as Quality } from "./quality/Quality";
 export { default as Services } from "./services/Services";
 export { default as Featured } from "./featured/Featured";
 export { default as Cta } from "./cta/Cta";
+export { default as ContactForm } from "./contactForm/ContactForm";
 export { default as Footer } from "./footer/Footer";

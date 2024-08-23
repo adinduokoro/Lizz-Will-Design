@@ -1,0 +1,36 @@
+.contact-form {
+  min-height: 67.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 3%;
+  border: 8px solid green;
+}
+
+.contact-form-container {
+  width: 104.9375rem;
+  display: flex;
+  flex-direction: column;
+  border: 8px solid blue;
+}
+
+.contact-form-container h3 {
+  color: var(--blackColor500);
+  font-family: "Minister Book", sans-serif;
+  font-size: 2.98625rem;
+  font-weight: 500;
+  line-height: 4rem;
+}
+
+.contact-form-content {
+  display: flex;
+  border: 8px solid red;
+}
+
+.contact-form-content .left {
+  border: 8px solid purple;
+}
+
+.contact-form-content .right {
+  border: 8px solid orange;
+}
