@@ -7,6 +7,10 @@
   color: var(--whiteColor500);
 }
 
+.footer-top-hide{
+  min-height: 0;
+}
+
 .footer-container {
   margin: 0 3%;
   max-width: 70rem;
@@ -69,6 +73,8 @@ form span {
 form input{
   padding: 0 .94rem;
   color: var(--whiteColor500);
+  border-radius: 8px;
+
 }
 
 .main-inputs {
@@ -88,7 +94,7 @@ form button {
 }
 
 form button {
-  border-radius: 0;
+  border-radius: 8px;
   background: none;
   color: var(--whiteColor500);
   font-size: 0.83313rem;
@@ -111,6 +117,8 @@ form textarea {
   width: 22.375rem;
   height: 7.75rem;
   color: var(--whiteColor500);
+  border-radius: 8px;
+
 }
 
 form textarea::placeholder {
@@ -181,6 +189,10 @@ form textarea::placeholder {
     align-items: center;
     text-align: center;
     gap: 1rem;
+  }
+
+  .footer .bottom-trim{
+    padding: 2rem 0 2rem;
   }
 }
 
