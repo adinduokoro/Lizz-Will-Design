@@ -1,28 +1,37 @@
-.header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 29.625rem;
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 29.625rem;
 }
 
-.header-container{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    width: 39rem;
-
+.header-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  width: 39rem;
 }
 
-.header p{
-    color: var(--whiteColor500);
+.header p {
+  color: var(--whiteColor500);
 }
 
-@media screen and (max-width: 1280px ) {
-  .page-background{
-    min-height: 25.25rem;}
+@media screen and (max-width: 1280px) {
+  .header {
+    min-height: 17rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
-  
+  .header{
+    margin-top: 4.125rem;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  .header {
+    min-height: 8.25rem;
+    margin-top: 0;
+  }
 }
