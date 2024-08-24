@@ -18,3 +18,11 @@
     color: var(--whiteColor500);
 }
 
+@media screen and (max-width: 1280px ) {
+  .page-background{
+    min-height: 25.25rem;}
+}
+
+@media screen and (max-width: 768px) {
+  
+}
