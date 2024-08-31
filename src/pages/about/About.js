@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./About.module.css"
-import { SubPageHeader } from '../../components'
+import { AboutText, SubPageHeader } from '../../components'
 
 const About = () => {
   return (
@@ -8,6 +8,7 @@ const About = () => {
       <SubPageHeader
         title={"About Us"}
       />
+      <AboutText />
     </div>
   )
 }
