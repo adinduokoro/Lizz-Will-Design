@@ -74,6 +74,9 @@
   .aboutText {
     min-height: 58.1975rem;
   }
+  .header {
+    margin-bottom: 1rem;
+  }
   .aboutText-content p {
     margin-bottom: 0.5rem;
   }
@@ -85,5 +88,12 @@
 }
 
 @media screen and (max-width: 568px) {
-  
+  .image-container {
+    border: 3px solid purple;
+    float: none;
+    margin-left: 0;
+    margin-bottom: 1.5rem;
+    width: 13.1875rem;
+   
+  }
 }

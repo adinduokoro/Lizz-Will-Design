@@ -43,7 +43,7 @@ const AboutText = () => {
           <div>
             <div className={styles["header"]}>
               <h3>Elizabeth Williamson</h3>
-              <p>President and Director of Lizz Will Design & Renovations</p>
+              <p>President and Director</p>
             </div>
             <div>
               <div className={styles["image-container"]}></div>
