@@ -10,5 +10,6 @@ export { default as Services } from "./services/Services";
 export { default as Featured } from "./featured/Featured";
 export { default as Cta } from "./cta/Cta";
 export { default as AboutText } from "./aboutText/AboutText";
+export { default as ServiceText } from "./serviceText/ServiceText";
 export { default as ContactForm } from "./contactForm/ContactForm";
 export { default as Footer } from "./footer/Footer";

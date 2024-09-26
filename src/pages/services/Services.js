@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./Services.module.css"
-import { SubPageHeader } from '../../components'
+import { ServiceText, SubPageHeader } from '../../components'
 
 const Services = () => {
   return (
@@ -8,6 +8,7 @@ const Services = () => {
     <SubPageHeader
       title={"Our Services"}
     />
+    <ServiceText />
   </div>
   )
 }
