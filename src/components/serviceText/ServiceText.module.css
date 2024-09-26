@@ -1,0 +1,73 @@
+.serviceText {
+  min-height: 134rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 3%;
+}
+
+.serviceText-container {
+    width: 104.9375rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.content-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7rem;
+}
+
+.content-top p {
+  max-width: 60.625rem;
+  margin-right: 4rem;
+}
+
+button {
+  display: flex;
+  min-width: 34rem;
+  height: 8.875rem;
+  justify-content: center;
+  align-items: center;
+  color: var(--blackColor500);
+  font-size: 1.72813rem;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 0.5rem;
+  background-color: var(--whiteColor500);
+  border: 2px solid var(--blackColor500);
+}
+
+.content-bottom {
+  display: flex;
+  border: 3px solid green;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 7rem;
+  column-gap: 1.5rem;
+}
+
+.card {
+  border: 3px solid green;
+  width: 32rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.card span {
+  color: #120703;
+
+  text-align: center;
+  font-family: "Minister Book";
+  font-size: 1.72813rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.5rem; /* 144.665% */
+}
+
+.image-container {
+  margin: 2rem 0 2rem;
+}
